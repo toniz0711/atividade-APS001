@@ -25,7 +25,7 @@ O código é estruturado em várias classes que representam os componentes do co
 1. Clone o repositório:
    ```bash
    git clone <URL do repositório>
-
+```cSharp
 Computador pc = new Computador();
 Placa_mae mobo = new Placa_mae(12, 15, "ASUS");
 pc.Adicionar_Componete(mobo);
@@ -39,7 +39,7 @@ Ssd samdisk = new Ssd(12, 15, "SamDisk", 600);
 pc.Adicionar_Componete(samdisk);
 Ram pichau = new Ram(12, 15, "Pichau", 32);
 pc.Adicionar_Componete(pichau);
-
+```
 ### Como Personalizar
 
 - **URL do repositório**: Substitua `<URL do repositório>` pela URL real do seu repositório.
